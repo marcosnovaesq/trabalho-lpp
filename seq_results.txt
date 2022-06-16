@@ -1,0 +1,84 @@
+SEQUENTIAL
+50
+Elapsed: 0.000044 seconds
+Elapsed: 0.000045 seconds
+Elapsed: 0.000045 seconds
+Elapsed: 0.000045 seconds
+Elapsed: 0.000029 seconds
+Elapsed: 0.000024 seconds
+Elapsed: 0.000025 seconds
+Elapsed: 0.000029 seconds
+Elapsed: 0.000044 seconds
+Elapsed: 0.000030 seconds
+-----------------------
+500
+Elapsed: 0.003013 seconds
+Elapsed: 0.003013 seconds
+Elapsed: 0.002983 seconds
+Elapsed: 0.002991 seconds
+Elapsed: 0.002991 seconds
+Elapsed: 0.002983 seconds
+Elapsed: 0.002010 seconds
+Elapsed: 0.002988 seconds
+Elapsed: 0.003030 seconds
+Elapsed: 0.003514 seconds
+------------------------
+1000
+Elapsed: 0.011441 seconds
+Elapsed: 0.011390 seconds
+Elapsed: 0.011909 seconds
+Elapsed: 0.011422 seconds
+Elapsed: 0.012192 seconds
+Elapsed: 0.011390 seconds
+Elapsed: 0.005694 seconds
+Elapsed: 0.011536 seconds
+Elapsed: 0.007585 seconds
+Elapsed: 0.004123 seconds
+------------------------
+10_000
+Elapsed: 0.315147 seconds
+Elapsed: 0.316725 seconds
+Elapsed: 0.332753 seconds
+Elapsed: 0.310320 seconds
+Elapsed: 0.309699 seconds
+Elapsed: 0.319563 seconds
+Elapsed: 0.306794 seconds
+Elapsed: 0.317712 seconds
+Elapsed: 0.301619 seconds
+Elapsed: 0.319226 seconds
+------------------------
+50_000
+Elapsed: 8.179300 seconds
+Elapsed: 8.164774 seconds
+Elapsed: 8.190554 seconds
+Elapsed: 8.200942 seconds
+Elapsed: 8.202980 seconds
+Elapsed: 8.245001 seconds
+Elapsed: 8.166215 seconds
+Elapsed: 8.155580 seconds
+Elapsed: 8.161583 seconds
+Elapsed: 8.200482 seconds
+------------------------
+100_000
+Elapsed: 32.821324 seconds
+Elapsed: 32.817266 seconds
+Elapsed: 32.806256 seconds
+Elapsed: 32.923647 seconds
+Elapsed: 32.838389 seconds
+Elapsed: 32.761584 seconds
+Elapsed: 32.820401 seconds
+Elapsed: 32.852321 seconds
+Elapsed: 32.851574 seconds
+Elapsed: 32.847712 seconds
+------------------------
+200_000
+Elapsed: 131.199730 seconds
+Elapsed: 131.188183 seconds
+Elapsed: 131.509323 seconds
+Elapsed: 131.358856 seconds
+Elapsed: 132.158572 seconds
+Elapsed: 132.018682 seconds
+Elapsed: 131.239347 seconds
+Elapsed: 131.402699 seconds
+Elapsed: 131.403865 seconds
+Elapsed: 130.843040 seconds

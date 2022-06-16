@@ -1,22 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
+#include <time.h>
 
-#define TAM 50
-
-int main()
+int main(int argc, char **argv)
 {
-    int numeros[TAM];
+    
+    int tamanho = atoi(argv[1]);
+    int numeros[tamanho];
     int i, aux, contador;
     // vetor gerado aleatoriamente
-    for (i = 0; i < TAM; i++)
+    for (i = 0; i < tamanho; i++)
     {
-        numeros[i] = (rand() % TAM);
+        numeros[i] = (rand() % tamanho);
     }
     // Algoritmo de ordenação Bubblesort:
-    for (contador = 1; contador < TAM; contador++)
+    clock_t begin = clock();
+    for (contador = 1; contador < tamanho; contador++)
     {
-        for (i = 0; i < TAM - 1; i++)
+        for (i = 0; i < tamanho - 1; i++)
         {
             if (numeros[i] > numeros[i + 1])
             {
@@ -28,11 +29,14 @@ int main()
     }
 
     //output do quick sort 
-    printf("\n\nValores ordenados\n");
-    for(i = 0; i < TAM; i++)
-    {
-    printf("%d\n", numeros[i]);
-    }
+    // printf("\n\nValores ordenados\n");
+    // for(i = 0; i < tamanho; i++)
+    // {
+    // printf("%d\n", numeros[i]);
+    // }
     
+    clock_t end = clock();
+    double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Elapsed: %f seconds\n", time_spent);
     return 0;
 }
