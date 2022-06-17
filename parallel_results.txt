@@ -1,0 +1,85 @@
+PARALLEL
+50
+Elapsed: 0.000045
+Elapsed: 0.002585 
+Elapsed: 0.000031
+Elapsed: 0.000033 
+Elapsed: 0.000033
+Elapsed: 0.000023
+Elapsed: 0.000032 
+Elapsed: 0.000034 
+Elapsed: 0.000031 
+Elapsed: 0.000144
+-----------------------
+500
+Elapsed: 0.000255 
+Elapsed: 0.000155 
+Elapsed: 0.000277 
+Elapsed: 0.000183 
+Elapsed: 0.000168 
+Elapsed: 0.000140 
+Elapsed: 0.000173 
+Elapsed: 0.000158 
+Elapsed: 0.000214 
+Elapsed: 0.000183 
+-----------------------
+1000
+Elapsed: 0.000347 
+Elapsed: 0.000384 
+Elapsed: 0.000590 
+Elapsed: 0.000475 
+Elapsed: 0.000583 
+Elapsed: 0.000487 
+Elapsed: 0.000462 
+Elapsed: 0.000398 
+Elapsed: 0.000412 
+Elapsed: 0.000484 
+-----------------------
+10_000
+Elapsed: 0.043046 
+Elapsed: 0.025939 
+Elapsed: 0.025913 
+Elapsed: 0.026232 
+Elapsed: 0.042892 
+Elapsed: 0.029431 
+Elapsed: 0.026802 
+Elapsed: 0.028848 
+Elapsed: 0.027350 
+Elapsed: 0.026145 
+-----------------------
+50_000
+Elapsed: 0.755146 
+Elapsed: 0.775844 
+Elapsed: 0.820698 
+Elapsed: 0.846451 
+Elapsed: 0.751874 
+Elapsed: 0.781666 
+Elapsed: 0.747304 
+Elapsed: 0.811174 
+Elapsed: 0.782973 
+Elapsed: 0.742179 
+-----------------------
+100_000
+Elapsed: 3.076646 
+Elapsed: 3.084163 
+Elapsed: 3.625081 
+Elapsed: 3.835027 
+Elapsed: 3.735812 
+Elapsed: 3.535804 
+Elapsed: 3.621693 
+Elapsed: 3.331180 
+Elapsed: 4.047249 
+Elapsed: 3.545524 
+-----------------------
+200_000
+Elapsed: 14.169082 
+Elapsed: 13.524071 
+Elapsed: 13.716840 
+Elapsed: 13.677502 
+Elapsed: 15.080585 
+Elapsed: 18.358020 
+Elapsed: 14.873762 
+Elapsed: 15.621964 
+Elapsed: 15.145347
+Elapsed: 16.135977 
+Elapsed: 17.406545 

@@ -143,11 +143,11 @@ int main(int argc, char **argv)
         int *other_array = malloc(number_of_elem * sizeof(int));
 		mergeSort(sorted_array, other_array, 0, (number_of_elem - 1));
         total_time += MPI_Wtime();
-        printf("Tempo Total: %lf \n", total_time);
-        printf("Vetor ordenado: ");
-		for(int i = 0; i < number_of_elem; i++) {
-			printf("%d ", sorted_array[i]);
-        }
+        printf("Elapsed: %lf \n", total_time);
+        // printf("Vetor ordenado: ");
+		// for(int i = 0; i < number_of_elem; i++) {
+		// 	printf("%d ", sorted_array[i]);
+        // }
 		printf("\n");
 			
 		free(sorted_array);
