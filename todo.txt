@@ -1,6 +1,0 @@
-todo 
-    receber max via args no metodo sequencial
-    inserir mediçao de tempo
-    rodar para casos de tamanho de vetor variavel
-
- 
