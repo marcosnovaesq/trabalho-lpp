@@ -122,7 +122,7 @@ int main(int argc, char **argv)
             #pragma omp parallel for
             for (contador = start; contador < end; contador++)
             {
-                for (k = 0; k < end - 1; k++)
+                for (k = start; k < end - 1; k++)
                 {
                     //Uso o vetor global que está definido fora da região paralela, então é considerada shared
                     if (vetor[k] > vetor[k + 1])
